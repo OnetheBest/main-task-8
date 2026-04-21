@@ -1,0 +1,11 @@
+{
+    "target_overrides": {
+        "*": {
+            "target.components_add": ["SD"],
+            "sd.SPI_MOSI": "PC_12",
+            "sd.SPI_MISO": "PC_11",
+            "sd.SPI_CLK":  "PC_10",
+            "sd.SPI_CS":   "PA_4"
+        }
+    }
+}
